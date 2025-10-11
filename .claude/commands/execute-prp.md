@@ -31,6 +31,7 @@ Implement a feature using using the PRP file.
 
    - Execute the PRP
    - Implement all the code
+   - Use the available claude code agents for their specified job in the plan. Take care to choose the right.
 
 4. **Validate**
 

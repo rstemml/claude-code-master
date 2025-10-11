@@ -1,8 +1,10 @@
 Follow these steps to create a git worktree
 
-Please analyze and fix the Github issue: $ARGUMENTS.
+Please analyze and fix the Archon issue: $ARGUMENTS. **Check Current Task** → `archon:manage_task(action="get", task_id="...")`
 
-1. use gh issue view' to get the details
+
+
+1. Get the details from Archon
 
 2. Get the current project's folder name
 
@@ -12,6 +14,6 @@ Please analyze and fix the Github issue: $ARGUMENTS.
 
 5. Run the `scripts/copy-hidden-files-to-worktree.sh` script to copy the hidden and env files to new worktree repository
 
-6. Find the related Issue in Github Project. Set the Status to "In Progress".
+6. **Update Task Status** → `archon:manage_task(action="update", task_id="...", update_fields={"status": "doing"})`
 
 Remember to use the Github CLI (`gh`) for all Github-related tasks.

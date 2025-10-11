@@ -41,7 +41,7 @@ The AI agent only gets the context you are appending to the PRP and training dat
 
 ### PRP Generation
 
-Using assets/docs/developer/prp/templates/prp_base.md as template:
+Using assets/ai_workspace/developer/prp/templates as template:
 
 #### PRP Structure with Integrated Research and Planning
 
@@ -94,9 +94,11 @@ uv run pytest tests/ -v
 
 **_ULTRATHINK ABOUT THE PRP AND PLAN YOUR APPROACH THEN START WRITING THE PRP_**
 
+**_IMPORTANT USE ALWAYS THE MOST LIGHTWEIGHT SOLUTION WITH LOW COMPLEXITY_**
+
 ### Output
 
-Save as: `assets/docs/developer/prp/{feature-name}.md`
+Save as: `assets/ai_workspace/developer/prp/{feature-name}.md`
 
 The PRP should be a comprehensive document that includes:
 
