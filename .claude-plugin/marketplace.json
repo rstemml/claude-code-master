@@ -57,6 +57,28 @@
         },
         "source": "./plugins/security-guidance",
         "category": "security"
+      },
+      {
+        "name": "assist-pro",
+        "description": "Claude Assist Pro Plugin",
+        "version": "1.0.0",
+        "author": {
+          "name": "Rene Stemmler",
+          "email": "rene.stemmler11@gmail.com"
+        },
+        "source": "./plugins/assist-pro",
+        "category": "productivity"
+      },
+      {
+        "name": "archon-dev-flow",
+        "description": "Claude Archon Dev Flow Plugin",
+        "version": "1.0.0",
+        "author": {
+          "name": "Rene Stemmler",
+          "email": "rene.stemmler11@gmail.com"
+        },
+        "source": "./plugins/archon-dev-flow",
+        "category": "productivity"
       }
     ]
   }

@@ -1,0 +1,52 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(find:*)",
+      "Bash(pnpm exec playwright test:*)",
+      "Bash(npm run test:e2e:*)",
+      "mcp__ide__getDiagnostics",
+      "Bash(pnpm build)",
+      "Bash(gh issue list:*)",
+      "Bash(grep:*)",
+      "Bash(git add:*)",
+      "Bash(npx biome check:*)",
+      "Bash(git commit:*)",
+      "Bash(gh issue:*)",
+      "Bash(pnpm exec:*)",
+      "Bash(mkdir:*)",
+      "Bash(pnpm test:e2e:*)",
+      "Bash(gh pr list:*)",
+      "Bash(gh pr view:*)",
+      "Bash(git checkout:*)",
+      "Bash(pnpm dev:*)",
+      "Bash(gh pr create:*)",
+      "Bash(gh api:*)",
+      "Bash(git push:*)",
+      "mcp__filesystem__directory_tree",
+      "Bash(pnpm add:*)",
+      "Bash(basename:*)",
+      "Bash(gh label create \"refactoring\" --description \"Code refactoring and restructuring\" --color \"f9d0c4\")",
+      "Bash(gh issue edit 191 --add-label \"architecture,multi-agent,a2a-protocol,refactoring\")",
+      "Bash(git worktree add ../vodafone-assist-enterprise-worktrees/191-refactor-agent-host-to-a2a-multi-agent-system -b 191-refactor-agent-host-to-a2a-multi-agent-system)",
+      "mcp__Context7__get-library-docs",
+      "WebFetch(domain:learn.microsoft.com)"
+    ],
+    "deny": [
+      "Bash(pnpm lint)"
+    ]
+  },
+  "hooks": {
+    "Notification": [
+      {
+        "matcher": "",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "uv run .claude/hooks/notification.py --notify"
+          }
+        ]
+      }
+    ],
+    "SubagentStop": []
+  }
+}

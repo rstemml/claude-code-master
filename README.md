@@ -1,3 +1,13 @@
+# Claude
+
+Links
+
+https://www.aitmpl.com/plugins
+
+/plugin marketplace add https://github.com/davila7/claude-code-templates
+
+
+
 # Claude Code Hooks Mastery
 
 [Claude Code Hooks](https://docs.anthropic.com/en/docs/claude-code/hooks) - Quickly master how to use Claude Code hooks to add deterministic (or non-deterministic) control over Claude Code's behavior.
@@ -270,3 +280,4 @@ if not all_tests_passed():
 Learn to code with AI with foundational [Principles of AI Coding](https://agenticengineer.com/principled-ai-coding?y=cchookmast)
 
 Follow the [IndyDevDan youtube channel](https://www.youtube.com/@indydevdan) for more AI coding tips and tricks.
+

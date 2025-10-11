@@ -1,0 +1,9 @@
+{
+  "name": "archon-dev-flow",
+  "description": "Claude Agent SDK Development Plugin",
+  "version": "1.0.0",
+  "author": {
+    "name": "Rene Stemmler",
+    "email": "rene.stemmler11@gmail.com"
+  }
+}

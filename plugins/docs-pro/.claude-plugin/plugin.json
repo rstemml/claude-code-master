@@ -1,0 +1,9 @@
+{
+  "name": "docs-pro",
+  "version": "1.0.0",
+  "description": "Comprehensive feature development workflow with specialized agents for codebase exploration, architecture design, and quality review",
+  "author": {
+    "name": "Rene Stemmler",
+    "email": "rene.stemmler11@gmail.com"
+  }
+}
